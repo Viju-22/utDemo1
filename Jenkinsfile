@@ -6,7 +6,7 @@ pipeline
     
         stage('Build Application'){
         steps{
-        bat 'mvn -B -U -e -V clean install -DskipTests'
+        bat 'mvn -X -B -U -e -V clean install -DskipTests'
         }	
         }
         
