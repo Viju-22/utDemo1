@@ -37,7 +37,7 @@
 						<username>${anypoint.userName}</username>
 						<password>${anypoint.password}</password>
 						<applicationName>UT-01</applicationName>
-						<environment>Test</environment>
+						<environment>${environment}</environment>
 						<businessGroup>MuleSoft</businessGroup>
 						<workers>1</workers>
 						<workerType>Micro</workerType>
